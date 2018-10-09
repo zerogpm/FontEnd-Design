@@ -1,22 +1,21 @@
 <template>
-  <div id="app">
-    <appHeaderNav/>
-    <app-banner/>
+  <div>
+    <app-header-nav/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 import appHeaderNav from './components/HeaderNav'
-import appBanner from './components/Banner'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     appHeaderNav,
-    appBanner
   }
 }
 </script>
 
 <style lang="scss">
+
 </style>

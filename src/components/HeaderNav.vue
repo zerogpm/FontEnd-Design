@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <nav class="navbar navbar-expand-md navbar-light bg-dark">
-      <a class="navbar-brand text-white" href="#">Fontend Design</a>
+      <router-link to="/" exact><li class="navbar-brand text-white">Frontend Design</li></router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,7 +13,7 @@
               Contact Us Form Design
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">SlideBar Contact Form</a>
+              <router-link :to="{ name: 'slidingSiderForm' }" tag="li" class="dropdown-item">SlideBar Contact Form</router-link>
               <a class="dropdown-item" href="#">Another action</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
@@ -27,9 +27,7 @@
 
 <script>
 export default {
-  props: {
-    msg: String
-  },
+  name: 'Header',
   mounted () {
     this.$nextTick(() => {
       $('.hello').hide()
