@@ -27,13 +27,7 @@
 
 <script>
 export default {
-  name: 'Header',
-  mounted () {
-    this.$nextTick(() => {
-      $('.hello').hide()
-      $('.hello').fadeIn('slow')
-    })
-  }
+  name: 'Header'
 }
 </script>
 
