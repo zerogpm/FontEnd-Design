@@ -19,6 +19,15 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light font-weight-bold" href="#" id="inputDesign" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Input Design
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <router-link :to="{ name: 'hoverSearch' }" tag="li" class="dropdown-item">Search Box</router-link>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
