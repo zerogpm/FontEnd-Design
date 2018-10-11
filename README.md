@@ -3,7 +3,7 @@
 
 ## Project setup
 
-###Be Sure to install Node before run npm. Node come with NPM
+### Be Sure to install Node before run npm. Node come with NPM
 
 ```
 npm install
