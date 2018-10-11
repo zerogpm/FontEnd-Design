@@ -10,7 +10,7 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Contact Us Form Design
+              Form Design
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <router-link :to="{ name: 'slidingSiderForm' }" tag="li" class="dropdown-item">SlideBar Contact Form</router-link>
@@ -26,6 +26,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <router-link :to="{ name: 'hoverSearch' }" tag="li" class="dropdown-item">Search Box</router-link>
+              <router-link :to="{ name: 'growingButton' }" tag="li" class="dropdown-item">Glowing Button</router-link>
             </div>
           </li>
         </ul>
