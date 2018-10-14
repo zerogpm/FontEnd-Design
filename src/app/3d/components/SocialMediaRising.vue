@@ -47,7 +47,7 @@
                     <span></span>
                     <span></span>
                     <span></span>
-                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-github"></span>
                 </a>
             </li>
         </ul>
@@ -132,7 +132,7 @@
                 }
 
                 &:nth-child(5) span {
-                    background: #e4405f;
+                    background: #24292E;
                 }
 
                 span {
