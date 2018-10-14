@@ -21,12 +21,21 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light font-weight-bold" href="#" id="inputDesign" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-light font-weight-bold" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Input Design
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <router-link :to="{ name: 'hoverSearch' }" tag="li" class="dropdown-item">Search Box</router-link>
               <router-link :to="{ name: 'growingButton' }" tag="li" class="dropdown-item">Glowing Button</router-link>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light font-weight-bold" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              3D Layer
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <router-link :to="{ name: 'socialMediaRising' }" tag="li" class="dropdown-item">Media Icon</router-link>
             </div>
           </li>
         </ul>
